@@ -24,7 +24,7 @@ Using [lazy.nvim](https://github.com/folke/lazy.nvim), set an empty `opts` to ca
 
 ## Configuration
 
-The following is the default configuration, no need to set this if 'com.apple.keylayout.ABC' works for you.
+The following is the default configuration, the value of `default_input_source` should be input source ID. No need to set this option if the default 'com.apple.keylayout.ABC' works for you.
 
 ```lua
 {
@@ -32,7 +32,7 @@ The following is the default configuration, no need to set this if 'com.apple.ke
 }
 ```
 
-Input sources can be get by running maccism after switching to that input source. Other common input sources:
+You can get input source IDs by running macism after switching to that input source. Other common input sources:
 
 1. 鼠须管：im.rime.inputmethod.Squirrel.Rime
 1. 搜狗输入法：com.sogou.inputmethod.sogou.pinyin
